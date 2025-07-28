@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "timestamp": "2025-07-28T20:55:39.169910"
+  },
+  "extracted_sections": [
+    {
+      "document": "Lunch Ideas.pdf",
+      "page_number": 8,
+      "section_title": "\u2022 \n1/4 cup red onion, finely chopped \n\u2022 \n1/4 cup cilantro, chopped \n\u2022 \n2 tablespoons olive oil \n\u2022 \n1 tablespoon lime juice \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a large bowl, combine the black beans, corn, tomatoes, red onion, and cilantro. \n\u2022 \nDrizzle with olive oil and lime juice. \n\u2022 \nSeason with salt and pepper, then toss to combine. \n \n \n \nChicken and Pesto Sandwich \nIngredients: \n\u2022 \n2 slices whole grain bread \n\u2022 \n1 cup cooked chicken breast, sliced \n\u2022 \n2 tablespoons pesto \n\u2022 \n1/2 cup baby spinach \n\u2022 \n1/4 cup roasted red peppers, sliced \nInstructions: \n\u2022 \nSpread pesto on one slice of bread. \n\u2022 \nLayer the chicken, spinach, and roasted red peppers on top. \n\u2022 \nTop with the second slice of bread and cut in half. \n \n \n \n \n \nLentil Salad \nIngredients: \n\u2022 \n1 cup cooked lentils \n\u2022 \n1/2 cup cherry tomatoes, halved \n\u2022 \n1/2 cucumber, diced \n\u2022 \n1/4 cup red onion, finely chopped \n\u2022 \n1/4 cup feta cheese, crumbled \n\u2022 \n2 tablespoons olive oil \n\u2022 \n1 tablespoon red wine vinegar \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a large bowl, combine the lentils, tomatoes, cucumber, red onion, and feta cheese. \n\u2022 \nDrizzle with olive oil and red wine vinegar. \n\u2022 \nSeason with salt and pepper, then toss to combine. \n \n",
+      "importance_rank": 1,
+      "similarity_score": 0.4342
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "page_number": 3,
+      "section_title": "\uf0b7 \nPlace chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese. \n\uf0b7 \nBake for 20-25 minutes until cheese is melted and bubbly. \n\uf0b7 \nServe warm. \n \n \n \nSpaghetti Bolognese \nIngredients: \n\uf0b7 \n1 pound ground beef \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 carrot, grated \n\uf0b7 \n1 celery stalk, diced \n\uf0b7 \n1 can (28 ounces) crushed tomatoes \n\uf0b7 \n1/4 cup tomato paste \n\uf0b7 \n1/2 cup red wine (optional) \n\uf0b7 \n1 teaspoon dried oregano \n\uf0b7 \n1 teaspoon dried basil \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \nSpaghetti for serving \n\uf0b7 \nGrated Parmesan cheese for garnish \nInstructions: \n\uf0b7 \nIn a large skillet, cook ground beef over medium heat until browned. \n\uf0b7 \nAdd diced onion, minced garlic, grated carrot, and diced celery, saut\u00e9 until vegetables \nare tender. \n\uf0b7 \nStir in crushed tomatoes, tomato paste, red wine (if using), oregano, basil, salt, and \npepper. \n\uf0b7 \nSimmer for 30 minutes, stirring occasionally. \n\uf0b7 \nCook spaghetti according to package instructions. \n\uf0b7 \nServe Bolognese sauce over spaghetti, garnished with grated Parmesan cheese. \n \n \n \nTeriyaki Chicken \nIngredients: \n\uf0b7 \n4 boneless, skinless chicken thighs \n\uf0b7 \n1/4 cup soy sauce \n\uf0b7 \n1/4 cup mirin \n\uf0b7 \n2 tablespoons sugar \n\uf0b7 \n1 tablespoon sake \n\uf0b7 \n1 teaspoon grated ginger \n\uf0b7 \n1 teaspoon minced garlic \n\uf0b7 \n1 tablespoon vegetable oil \n\uf0b7 \nCooked rice for serving \n",
+      "importance_rank": 2,
+      "similarity_score": 0.4318
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "page_number": 4,
+      "section_title": "\u2022 \nServe on lettuce leaves or whole grain bread. \n \n \n \nCaprese Sandwich \nIngredients: \n\u2022 \n2 slices ciabatta bread \n\u2022 \n1/2 cup fresh mozzarella, sliced \n\u2022 \n1 tomato, sliced \n\u2022 \nFresh basil leaves \n\u2022 \n1 tablespoon balsamic glaze \n\u2022 \n1 tablespoon olive oil \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nDrizzle olive oil on one slice of bread. \n\u2022 \nLayer the mozzarella, tomato, and basil on top. \n\u2022 \nDrizzle with balsamic glaze and season with salt and pepper. \n\u2022 \nTop with the second slice of bread and cut in half. \n \n \n \nChicken Salad Lettuce Wraps \nIngredients: \n\u2022 \n1 cup cooked chicken breast, shredded \n\u2022 \n1/4 cup mayonnaise \n\u2022 \n1 tablespoon Dijon mustard \n\u2022 \n1 celery stalk, diced \n\u2022 \n1/4 cup red grapes, halved \n\u2022 \nSalt and pepper to taste \n\u2022 \nLettuce leaves for serving \nInstructions: \n\u2022 \nIn a bowl, combine the chicken, mayonnaise, Dijon mustard, celery, and grapes. \n\u2022 \nSeason with salt and pepper. \n\u2022 \nServe in lettuce leaves. \n \n \n \nVeggie and Hummus Wrap \nIngredients: \n\u2022 \n1 whole wheat tortilla \n\u2022 \n1/2 cup hummus \n\u2022 \n1/2 cup cucumber, sliced \n\u2022 \n1/2 cup bell pepper, sliced \n",
+      "importance_rank": 3,
+      "similarity_score": 0.4278
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "page_number": 7,
+      "section_title": "\uf0b7 \nChopped parsley for garnish \n\uf0b7 \nCooked couscous for serving \nInstructions: \n\uf0b7 \nIn a large pot, heat olive oil over medium heat. \n\uf0b7 \nBrown chicken thighs on all sides, then set aside. \n\uf0b7 \nSaut\u00e9 onion and garlic until softened. \n\uf0b7 \nStir in cumin, cinnamon, and turmeric, then add chicken broth, apricots, and olives. \n\uf0b7 \nReturn chicken to the pot, cover, and simmer for 45 minutes until tender. \n\uf0b7 \nSeason with salt and pepper. \n\uf0b7 \nGarnish with parsley and serve over couscous. \n \n \n \nMushroom Risotto \nIngredients: \n\uf0b7 \n1 cup Arborio rice \n\uf0b7 \n4 cups chicken or vegetable broth \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 cup mushrooms, sliced \n\uf0b7 \n1/2 cup white wine \n\uf0b7 \n1/2 cup grated Parmesan cheese \n\uf0b7 \n2 tablespoons butter \n\uf0b7 \n2 tablespoons olive oil \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \nChopped parsley for garnish \nInstructions: \n\uf0b7 \nHeat broth in a pot and keep warm. \n\uf0b7 \nIn a large skillet, heat olive oil and 1 tablespoon butter over medium heat. \n\uf0b7 \nSaut\u00e9 onion, garlic, and mushrooms until tender. \n\uf0b7 \nAdd rice and stir for 1-2 minutes until lightly toasted. \n\uf0b7 \nPour in white wine and cook until absorbed. \n\uf0b7 \nAdd warm broth, one ladle at a time, stirring until absorbed before adding more, until \nrice is creamy and tender (about 20 minutes). \n\uf0b7 \nStir in remaining butter and Parmesan cheese, season with salt and pepper. \n\uf0b7 \nGarnish with parsley and serve. \n \n \n \nPulled Pork Sandwiches \nIngredients: \n\uf0b7 \n2 pounds pork shoulder \n\uf0b7 \n1 small onion, sliced \n\uf0b7 \n2 cloves garlic, minced \n",
+      "importance_rank": 4,
+      "similarity_score": 0.4213
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "page_number": 9,
+      "section_title": "\uf0b7 \n1 teaspoon thyme \n\uf0b7 \n1 teaspoon rosemary \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \n1 pie crust \nInstructions: \n\uf0b7 \nPreheat oven to 375\u00b0F (190\u00b0C). \n\uf0b7 \nIn a large skillet, melt butter over medium heat. \n\uf0b7 \nCook diced onion and minced garlic until softened. \n\uf0b7 \nAdd cubed chicken and cook until browned. \n\uf0b7 \nStir in flour and cook for 1 minute. \n\uf0b7 \nGradually add chicken broth and milk, stirring constantly until thickened. \n\uf0b7 \nAdd frozen peas and carrots, thyme, rosemary, salt, and pepper. \n\uf0b7 \nPour mixture into a baking dish and top with pie crust. \n\uf0b7 \nBake for 25-30 minutes until crust is golden. \n\uf0b7 \nServe warm. \n \n \n \nChicken Stir-Fry \nIngredients: \n\uf0b7 \n1 pound chicken breast, sliced \n\uf0b7 \n1 cup broccoli florets \n\uf0b7 \n1 cup bell peppers, sliced \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n2 tablespoons soy sauce \n\uf0b7 \n1 tablespoon oyster sauce \n\uf0b7 \n1 tablespoon sesame oil \n\uf0b7 \n1 teaspoon cornstarch \n\uf0b7 \n1/4 cup water \n\uf0b7 \nCooked rice for serving \nInstructions: \n\uf0b7 \nIn a small bowl, mix soy sauce, oyster sauce, sesame oil, cornstarch, and water. \n\uf0b7 \nIn a large skillet, heat sesame oil over medium heat. \n\uf0b7 \nCook sliced chicken until browned, then set aside. \n\uf0b7 \nIn the same skillet, saut\u00e9 diced onion and minced garlic until fragrant. \n\uf0b7 \nAdd broccoli and bell peppers, stir-fry until tender. \n\uf0b7 \nReturn chicken to the skillet and pour sauce over the top. \n\uf0b7 \nCook until sauce is thickened. \n\uf0b7 \nServe over cooked rice. \n \n \n \nCoq au Vin \n",
+      "importance_rank": 5,
+      "similarity_score": 0.4203
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "Lunch Ideas.pdf",
+      "page_number": 8,
+      "snippet": "\u2022 \n1/4 cup red onion, finely chopped \n\u2022 \n1/4 cup cilantro, chopped \n\u2022 \n2 tablespoons olive oil \n\u2022 \n1 tablespoon lime juice \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a large bowl, combine the black beans, corn, tomatoes, red onion, and cilantro. \n\u2022 \nDrizzle with olive oil and lime juice. \n\u2022 ..."
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "page_number": 3,
+      "snippet": "\uf0b7 \nPlace chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese. \n\uf0b7 \nBake for 20-25 minutes until cheese is melted and bubbly. \n\uf0b7 \nServe warm. \n \n \n \nSpaghetti Bolognese \nIngredients: \n\uf0b7 \n1 pound ground beef \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 carrot,..."
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "page_number": 4,
+      "snippet": "\u2022 \nServe on lettuce leaves or whole grain bread. \n \n \n \nCaprese Sandwich \nIngredients: \n\u2022 \n2 slices ciabatta bread \n\u2022 \n1/2 cup fresh mozzarella, sliced \n\u2022 \n1 tomato, sliced \n\u2022 \nFresh basil leaves \n\u2022 \n1 tablespoon balsamic glaze \n\u2022 \n1 tablespoon olive oil \n\u2022 \nSalt and pepper to taste \nInstructions: \n..."
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "page_number": 7,
+      "snippet": "\uf0b7 \nChopped parsley for garnish \n\uf0b7 \nCooked couscous for serving \nInstructions: \n\uf0b7 \nIn a large pot, heat olive oil over medium heat. \n\uf0b7 \nBrown chicken thighs on all sides, then set aside. \n\uf0b7 \nSaut\u00e9 onion and garlic until softened. \n\uf0b7 \nStir in cumin, cinnamon, and turmeric, then add chicken broth, apri..."
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "page_number": 9,
+      "snippet": "\uf0b7 \n1 teaspoon thyme \n\uf0b7 \n1 teaspoon rosemary \n\uf0b7 \nSalt and pepper to taste \n\uf0b7 \n1 pie crust \nInstructions: \n\uf0b7 \nPreheat oven to 375\u00b0F (190\u00b0C). \n\uf0b7 \nIn a large skillet, melt butter over medium heat. \n\uf0b7 \nCook diced onion and minced garlic until softened. \n\uf0b7 \nAdd cubed chicken and cook until browned. \n\uf0b7 \nSt..."
+    }
+  ]
+}

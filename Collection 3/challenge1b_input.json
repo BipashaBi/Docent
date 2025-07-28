@@ -1,0 +1,58 @@
+{
+    "challenge_info": {
+        "challenge_id": "round_1b_001",
+        "test_case_name": "menu_planning",
+        "description": "Dinner menu planning"
+    },
+    "persona": "Food Contractor",
+    "job": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "docs": [
+        "Breakfast Ideas.pdf",
+        "Dinner Ideas - Mains_1.pdf",
+        "Dinner Ideas - Mains_2.pdf",
+        "Dinner Ideas - Mains_3.pdf",
+        "Dinner Ideas - Sides_1.pdf",
+        "Dinner Ideas - Sides_2.pdf",
+        "Dinner Ideas - Sides_3.pdf",
+        "Dinner Ideas - Sides_4.pdf",
+        "Lunch Ideas.pdf"
+    ],
+    "documents": [
+        {
+            "filename": "Breakfast Ideas.pdf",
+            "title": "Breakfast Ideas"
+        },
+        {
+            "filename": "Dinner Ideas - Mains_1.pdf",
+            "title": "Dinner Ideas - Mains_1"
+        },
+        {
+            "filename": "Dinner Ideas - Mains_2.pdf",
+            "title": "Dinner Ideas - Mains_2"
+        },
+        {
+            "filename": "Dinner Ideas - Mains_3.pdf",
+            "title": "Dinner Ideas - Mains_3"
+        },
+        {
+            "filename": "Dinner Ideas - Sides_1.pdf",
+            "title": "Dinner Ideas - Sides_1"
+        },
+        {
+            "filename": "Dinner Ideas - Sides_2.pdf",
+            "title": "Dinner Ideas - Sides_2"
+        },
+        {
+            "filename": "Dinner Ideas - Sides_3.pdf",
+            "title": "Dinner Ideas - Sides_3"
+        },
+        {
+            "filename": "Dinner Ideas - Sides_4.pdf",
+            "title": "Dinner Ideas - Sides_4"
+        },
+        {
+            "filename": "Lunch Ideas.pdf",
+            "title": "Lunch Ideas"
+        }
+    ]
+}
