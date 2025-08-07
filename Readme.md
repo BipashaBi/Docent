@@ -1,78 +1,128 @@
-# Docent: PDF Relevance Extraction Pipeline
+# 📄 Docent: PDF Relevance Extraction Pipeline
 
-A sincere attempt by team Hack-A-Dobe to extract titles and headings from PDF files, organized in a clear outline. This solution is made to meet the Adobe Hackathon Challenge 1B requirements
----
-
-## Approach
-
-Our pipeline processes each PDF in a collection and performs the following steps:
-
-1. **PDF Parsing**: Extract text content using `PyMuPDF` and organize it into hierarchical sections.
-2. **Embedding Generation**: Generate sentence-level embeddings using the `sentence-transformers` model.
-3. **Semantic Similarity**: Compute cosine similarity between PDF content and the provided persona/job description.
-4. **Subsection Filtering**: Identify and retain the most relevant subsections using a threshold/ranking strategy.
-5. **Formatting Output**: Structure the output according to the `challenge1b_output.json` format.
-
-This method ensures only the most relevant and informative text is extracted and returned for each collection.
+**Docent** is a Python-based pipeline that extracts meaningful titles and structured headings from PDFs and filters them based on relevance to a given job description or persona. It leverages semantic similarity to return only the most informative content.
 
 ---
 
-## Models and Libraries Used
+## 🚀 Overview
 
-- [`sentence-transformers`](https://www.sbert.net/) – For semantic embeddings (e.g., `all-MiniLM-L6-v2`)
-- `PyMuPDF (fitz)` – For robust PDF parsing
-- `scikit-learn` – For cosine similarity computation
-- Standard libraries: `os`, `glob`, `json`, `re`, `numpy`
+Docent processes collections of PDFs and identifies the most relevant sections using natural language understanding. The pipeline outputs a structured JSON summary that emphasizes meaningful and contextually appropriate content for any given use case (e.g., job-matching, persona targeting).
 
 ---
 
-## Build & Run Instructions (For Documentation)
+## 🧠 Pipeline Workflow
 
-### Directory Structure
+For each PDF, Docent performs the following steps:
 
-DOCENT(1B)/
-├── app/
-│ ├── embedding_utils.py # Utilities for text embedding using Sentence Transformers
-│ ├── main.py # Main entry point for running the pipeline
-│ ├── output_formatter.py # Formats output to the required JSON schema
-│ ├── pdf_parser.py # Extracts structured content from PDF files
-│ ├── pipeline.py # Coordinates the entire workflow
-│ ├── similarity_ranking.py # Ranks paragraphs based on similarity
-│ └── subsection_processing.py # Refines and groups text subsections
-│
-├── Collection 1/
-│ ├── PDF/ # Folder containing academic PDF files
-│ ├── challenge1b_input.json # Input JSON containing persona and job description
-│ └── challenge1b_output.json # Final output JSON (generated)
-│
-├── Collection 2/ # Same format as Collection 1
-├── Collection 3/ # Same format as Collection 1
-│
-├── sentence_transformers/ # (Optional) Pretrained model folder if downloaded manually
-│
-├── sentence_transformers.py # Handles SentenceTransformer model loading
-├── test_sentence_transformer.py # Quick test for verifying model output
-├── output.json # Aggregated output file (if used)
-├── requirements.txt # Python dependency list
-├── Dockerfile # For containerized setup
-├── .gitignore # Git ignore file
+1. **📘 PDF Parsing**
+   Extracts hierarchical text data using `PyMuPDF`.
 
-## Install Dependecies
+2. **🧬 Embedding Generation**
+   Generates sentence-level embeddings via `sentence-transformers` models (e.g., `all-MiniLM-L6-v2`).
 
-Install Dependencies
+3. **🔍 Semantic Similarity**
+   Computes cosine similarity between PDF content and the target persona or job description.
 
-Make sure you have Python 3.7+ and required packages installed:
+4. **✂️ Subsection Filtering**
+   Ranks paragraphs and retains only the most relevant ones based on similarity thresholds.
+
+5. **📦 Output Formatting**
+   Outputs structured data following a consistent JSON format (compatible with downstream systems or integrations).
+
+---
+
+## 🛠️ Dependencies
+
+Install required libraries using `pip`:
 
 ```bash
-pip install pymupdf jsonschema
+pip install pymupdf sentence-transformers scikit-learn numpy
 ```
 
-## Place Input PDFs
+### Required Packages
 
-Put your PDFs into the folder named collection
+* [`sentence-transformers`](https://www.sbert.net/) – Semantic embedding
+* `PyMuPDF (fitz)` – PDF parsing and layout detection
+* `scikit-learn` – Cosine similarity computation
+* Standard libraries: `os`, `glob`, `json`, `re`, `numpy`
 
-## **How to run the code project**
+---
 
-docker build -t docent:challenge1b .
+## 📁 Project Structure
 
-docker run -it --rm docent:challenge1b
+```
+DOCENT/
+├── app/
+│   ├── embedding_utils.py           # Text embedding functions
+│   ├── main.py                      # Entry point
+│   ├── output_formatter.py          # JSON output formatter
+│   ├── pdf_parser.py                # PDF heading extractor
+│   ├── pipeline.py                  # Workflow coordinator
+│   ├── similarity_ranking.py        # Semantic similarity scoring
+│   └── subsection_processing.py     # Subsection refinement
+│
+├── Collection 1/
+│   ├── PDF/                         # Source PDFs
+│   ├── challenge1b_input.json       # Persona/Job Description input
+│   └── challenge1b_output.json      # Final JSON output (generated)
+│
+├── Collection 2/
+├── Collection 3/
+│
+├── sentence_transformers/          # (Optional) Local model directory
+├── sentence_transformers.py        # SentenceTransformer model wrapper
+├── test_sentence_transformer.py    # Model test script
+├── output.json                     # Aggregated results (optional)
+├── requirements.txt                # Dependencies
+├── Dockerfile                      # Container setup
+└── .gitignore
+```
+
+---
+
+## 📥 Input
+
+* Place PDFs inside the relevant `Collection` folder (e.g., `Collection 1/PDF/`)
+* Add a `challenge1b_input.json` file in the collection folder containing the persona/job description
+
+---
+
+## ▶️ Running the Project
+
+### 🐳 Docker (Recommended)
+
+1. **Build Docker Image**
+
+   ```bash
+   docker build -t docent:latest .
+   ```
+
+2. **Run Container**
+
+   ```bash
+   docker run -it --rm docent:latest
+   ```
+
+> Customize paths or bind volumes if needed for local file access.
+
+---
+
+## 📌 Output
+
+* A JSON file (e.g., `challenge1b_output.json`) is generated for each collection
+* Output includes:
+
+  * Extracted titles/headings
+  * Most relevant paragraphs
+  * Sectional structure for better readability
+
+---
+
+## ✅ Summary
+
+* 🔍 Smart relevance-based PDF section filtering
+* 💬 Semantic understanding using transformer-based models
+* 📂 Outputs in clean, structured JSON
+* 🔒 Fully offline and customizable
+
+
